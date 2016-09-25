@@ -15,6 +15,11 @@ import com.ov.training.secondEx.mapper.TokenCountMapper;
 import com.ov.training.secondEx.reduce.LongestWordByNbrOccurReducer;
 import com.ov.training.secondEx.reduce.SumOccurrenceReducer;
 
+/**
+ * 
+ * @author Anouer Lassoued
+ *
+ */
 public class StubDriver extends Configured implements Tool {
 
 	static final Logger logger = LoggerFactory.getLogger(StubDriver.class);
